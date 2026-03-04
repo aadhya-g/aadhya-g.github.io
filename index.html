@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Aadhya Gupta | Portfolio</title>
-
     <style>
 
     * {
@@ -11,38 +10,29 @@
         box-sizing: border-box;
         font-family: Arial, sans-serif;
     }
-
- 
     body {
         background: linear-gradient(to right, #1e1e2f, #3a3a6a);
         color: white;
         line-height: 1.6;
     }
-
-    
     header {
         text-align: center;
         padding: 60px 20px;
         background: rgba(0,0,0,0.4);
     }
-
     header h1 {
         font-size: 40px;
         margin-bottom: 10px;
     }
-
     header p {
         font-size: 18px;
         opacity: 0.8;
     }
-
-    
     nav {
         text-align: center;
         background: #111;
         padding: 15px;
     }
-
     nav a {
         color: white;
         text-decoration: none;
@@ -50,17 +40,13 @@
         font-weight: bold;
         transition: 0.3s;
     }
-
     nav a:hover {
         color: #00ffff;
     }
-
-   
     section {
         padding: 50px 20px;
         text-align: center;
     }
-
     section h2 {
         margin-bottom: 30px;
         font-size: 28px;
@@ -68,8 +54,6 @@
         display: inline-block;
         padding-bottom: 5px;
     }
-
-   
     .skill-box {
         display: inline-block;
         background: #00ffff;
@@ -80,12 +64,9 @@
         font-weight: bold;
         transition: 0.3s;
     }
-
     .skill-box:hover {
         background: white;
     }
-
-
     .project-card {
         background: rgba(255,255,255,0.1);
         margin: 20px auto;
@@ -94,30 +75,33 @@
         border-radius: 10px;
         transition: 0.3s;
     }
-
     .project-card:hover {
         transform: scale(1.05);
         background: rgba(255,255,255,0.2);
     }
-
-   
+    #contact a {
+        color: #0077b5;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    #contact a:hover {
+        text-decoration: underline;
+    }
     footer {
         text-align: center;
         padding: 20px;
         background: #111;
         margin-top: 30px;
     }
-
     </style>
-
 </head>
 <body>
-
+    
 <header>
     <h1>AADHYA GUPTA</h1>
     <p>B.Tech IT Student | Aspiring Developer | Tech Enthusiast</p>
 </header>
-
+    
 <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -150,6 +134,16 @@
 
 <section id="projects">
     <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>GoCab – Cab Sharing Mobile Application</h3>
+        <p>
+            Android cab-sharing app built using Kotlin with Node.js backend.
+            Used Azure Database for data management and Firebase Authentication
+            for secure login and real-time updates.
+        </p>
+    </div>
+
     <div class="project-card">
         <h3>Supermarket Billing System</h3>
         <p>
@@ -165,25 +159,23 @@
             using HTML, CSS, JavaScript, Node.js, MySQL, and Spring Boot.
         </p>
     </div>
-    <div class="project-card">
-        <h3>GoCab – Cab Sharing Mobile Application</h3>
-        <p>
-            Android cab-sharing app built using Kotlin with Node.js backend.
-            Used Azure Database for data management and Firebase Authentication
-            for secure login and real-time updates.
-        </p>
-    </div>
-</section>
 
+</section>
 <section id="contact">
     <h2>Contact</h2>
+
     <p>Email: aadhyagupta345@gmail.com</p>
     <p>Phone: +91 7999805230</p>
-    <p>LinkedIn: www.linkedin.com/in/aadhya-gupta1234</p>
+    <p>LinkedIn: 
+        <a href="https://www.linkedin.com/in/aadhya-gupta1234" target="_blank">
+            www.linkedin.com/in/aadhya-gupta1234
+        </a>
+    </p>
+
 </section>
 
 <footer>
-    <p>&copy 2026 Aadhya Gupta </p>
+    <p>&copy 2026 Aadhya Gupta</p>
 </footer>
 
 </body>
